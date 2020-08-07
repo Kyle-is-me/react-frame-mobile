@@ -11,7 +11,7 @@ function App() {
   return (
    <Router>
       <div className="App">
-        <nav>
+        {/* <nav>
           <ul>
             <li>
               <Link to='/'>Home</Link>
@@ -23,7 +23,7 @@ function App() {
               <Link to='/users'>Users</Link>
             </li>
           </ul>
-        </nav>
+        </nav> */}
 
         {/* 使用switch的时候，path总是从头开始匹配url，所有的路由都有/，所以path='/'放在前面永远只能匹配到Home组件，所以我要特意把path='/'放到最后面。另一种方法是用<Route exact path='/'，这种方法就会匹配完整的URL */}
         <Switch>
